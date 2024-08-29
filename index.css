@@ -1,23 +1,23 @@
 
-body {background-color: black; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+body {background-color: rgb(8, 0, 34); font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
 
 
-h1, h2 {color: #FF1F0F}
+h1, h2 {color: #0f77ff}
 
 header {display: flex; justify-content: space-around; vertical-align: center;}
 
-.link_button {background-color: #FF1F0F; border: none; border-radius: 20px; color: white; padding: 15px; text-align: center; text-decoration: none; display: inline-block; font-size: 15px; cursor: pointer; width: 70px}
+.link_button {background-color: #0f77ff; border: none; border-radius: 20px; color: white; padding: 12px; text-align: center; text-decoration: none; display: inline-block; font-size: 15px; cursor: pointer; width: 70px}
 
-.link_button:hover {color: black; background-color: #FF6C56;}
+.link_button:hover {color: black; background-color: #77C2FF;}
 
-.divheader {height: 65px; width: 100%; position:fixed; z-index:2; background-color: #262626; top: 0; left: 0; padding-top: 20px;}
+.divheader {height: 65px; width: 100%; position:fixed; z-index:2; background-color: #131031; top: 0; left: 0; padding-top: 20px;}
 
 .divconteudo {color: white; position: relative; z-index: 1}
 
 #imgperfil {float: right}
 
-.linkportfolio {color: #FF6C56; text-decoration: none;}
-.linkportfolio:visited {color:#FF6C56}
+.linkportfolio {color: #77C2FF; text-decoration: none;}
+.linkportfolio:visited {color:#77C2FF}
 
 #pform {text-align: center;}
 form {text-align: center;}
@@ -26,8 +26,4 @@ form {text-align: center;}
 #email {width: 270px;}
 
 .anchor {scroll-margin-top: 100px;}
-
-
-
-
 
