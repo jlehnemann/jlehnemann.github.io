@@ -6,7 +6,7 @@ h1, h2 {color: #FF1F0F}
 
 header {display: flex; justify-content: space-around; vertical-align: center;}
 
-.link_button {background-color: #FF1F0F; border: none; border-radius: 20px; color: white; padding: 15px; text-align: center; text-decoration: none; display: inline-block; font-size: 15px; font-weight: bold; cursor: pointer; width: 70px}
+.link_button {background-color: #FF1F0F; border: none; border-radius: 20px; color: white; padding: 15px; text-align: center; text-decoration: none; display: inline-block; font-size: 15px; cursor: pointer; width: 70px}
 
 .link_button:hover {color: black; background-color: #FF6C56;}
 
@@ -16,7 +16,7 @@ header {display: flex; justify-content: space-around; vertical-align: center;}
 
 #imgperfil {float: right}
 
-.linkportfolio {color: #FF6C56;text-decoration: none;}
+.linkportfolio {color: #FF6C56; text-decoration: none;}
 .linkportfolio:visited {color:#FF6C56}
 
 #pform {text-align: center;}
