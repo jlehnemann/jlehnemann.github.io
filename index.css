@@ -2,22 +2,22 @@
 body {background-color: black; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
 
 
-h1, h2 {color:green}
+h1, h2 {color: #FF1F0F}
 
 header {display: flex; justify-content: space-around; vertical-align: center;}
 
-.link_button {background-color: green; border: none; border-radius: 20px; color: black; padding: 15px; text-align: center; text-decoration: none; display: inline-block; font-size: 15px; cursor: pointer; width: 70px}
+.link_button {background-color: #FF1F0F; border: none; border-radius: 20px; color: white; padding: 15px; text-align: center; text-decoration: none; display: inline-block; font-size: 15px; font-weight: bold; cursor: pointer; width: 70px}
 
-.link_button:hover {color: black; background-color: lightgreen;}
+.link_button:hover {color: black; background-color: #FF6C56;}
 
-.divheader {height: 65px; width: 100%; position:fixed; z-index:2; background-color: rgb(37, 37, 37); top: 0; left: 0; padding-top: 20px;}
+.divheader {height: 65px; width: 100%; position:fixed; z-index:2; background-color: #262626; top: 0; left: 0; padding-top: 20px;}
 
 .divconteudo {color: white; position: relative; z-index: 1}
 
 #imgperfil {float: right}
 
-.linkportfolio {color: lightgreen;text-decoration: none;}
-.linkportfolio:visited {color:lightgreen}
+.linkportfolio {color: #FF6C56;text-decoration: none;}
+.linkportfolio:visited {color:#FF6C56}
 
 #pform {text-align: center;}
 form {text-align: center;}
