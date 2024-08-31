@@ -6,13 +6,13 @@ h1, h2 {color: #0f77ff}
 
 header {display: flex; justify-content: space-around; vertical-align: center;}
 
-.link_button {background-color: #0f77ff; border: none; border-radius: 20px; color: white; padding: 12px; text-align: center; text-decoration: none; display: inline-block; font-size: 15px; cursor: pointer; width: 70px}
+.link_button {background-color: #0f77ff; border: none; border-radius: 20px; color: white; padding: 10px; text-align: center; text-decoration: none; display: inline-block; font-size: 15px; cursor: pointer; width: 100px}
 
 .link_button:hover {color: black; background-color: #77C2FF;}
 
 .divheader {height: 65px; width: 100%; position:fixed; z-index:2; background-color: #131031; top: 0; left: 0; padding-top: 20px;}
 
-.divconteudo {color: white; position: relative; z-index: 1}
+.divconteudo {color: white; position: relative; z-index: 1; margin: 0 5% 0 5% }
 
 #imgperfil {float: right}
 
@@ -27,3 +27,7 @@ form {text-align: center;}
 
 .anchor {scroll-margin-top: 100px;}
 
+@media screen and (max-width:768px) {
+    .link_button {width: 65px; font-size: 14px;}
+    .divconteudo {margin: 0 0 0 0}
+}
