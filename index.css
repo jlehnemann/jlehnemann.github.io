@@ -10,7 +10,7 @@ header {display: flex; justify-content: space-around; vertical-align: center;}
 
 .link_button:hover {color: black; background-color: #77C2FF;}
 
-.divheader {height: 65px; width: 100%; position:fixed; z-index:2; background-color: #131031; top: 0; left: 0; padding-top: 20px;}
+.divheader {height: 65px; width: 100%; position:fixed; z-index:2; background-color: #131031; top: 0; left: 0; padding-top: 30px;}
 
 .divconteudo {color: #FFFFFF; position: relative; z-index: 1; margin: 0 13% 0 13%}
 
@@ -22,9 +22,7 @@ header {display: flex; justify-content: space-around; vertical-align: center;}
 #pform {text-align: center;}
 form {text-align: center;}
 
-#nome, #email {width: 295px; border-radius: 10px}
-#mensagem {border-radius: 10px}
-
+#nome, #email, #mensagem {width: 295px; border-radius: 10px}
 
 .anchor {scroll-margin-top: 100px;}
 
