@@ -22,8 +22,8 @@ header {display: flex; justify-content: space-around; vertical-align: center;}
 #pform {text-align: center;}
 form {text-align: center;}
 
-#nome, #email {width: 295px; border-radius: 10px; color:#FFFFFF; background-color: #000000}
-#mensagem {border-radius: 10px; color:#FFFFFF; background-color: #000000}
+#nome, #email {width: 295px; border-radius: 10px}
+#mensagem {border-radius: 10px}
 
 
 .anchor {scroll-margin-top: 100px;}
