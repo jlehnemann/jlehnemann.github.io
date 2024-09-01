@@ -28,7 +28,7 @@ form {text-align: center;}
 .anchor {scroll-margin-top: 100px;}
 
 @media screen and (max-width:768px) {
-    .link_button {width: 65px; font-size: 14px; padding: 7px}
+    .link_button {width: 65px; font-size: 13px; padding: 7px}
     .divconteudo {margin: 0 0 0 0}
     .divheader {padding-top: 36px;}
 }
