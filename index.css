@@ -12,7 +12,7 @@ header {display: flex; justify-content: space-around; vertical-align: center;}
 .link_button:hover {color: black; background-color: #77C2FF;}
 
 /* utilizado position fixed e z-index para que o header seja exibido corretamente */
-.divheader {height: 65px; width: 100%; position:fixed; z-index:2; background-color: #2A2370; top: 0; left: 0; padding-top: 30px;}
+.divheader {height: 65px; width: 100%; position:fixed; z-index:2; background-color: #1B1746; top: 0; left: 0; padding-top: 30px;}
 
 /* configurações de margem pensadas para um visual agradável em monitores de médio/grande porte */
 .divconteudo {color: #FFFFFF; position: relative; z-index: 1; margin: 0 13% 0 13%}
