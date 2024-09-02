@@ -9,9 +9,9 @@
 </head>
 <body>    
     <br>
+    <!-- Optado por não utilizar JavaScript  -->
 
-    <!-- Botões de navegação e disparo da troca de conteúdo por JavaScript-->
-    
+    <!-- Links de navegação pelas seções do site em forma de botões para melhor acessibilidade-->
     <div class="divheader">
         <header>
             <a class="link_button" href="#sobremim">Sobre mim</a>
@@ -25,7 +25,6 @@
     <br>
     <br>
     <!-- Menu da seção "Sobre Mim"-->
-    
     <div class="divconteudo">
         <section class="anchor" id="sobremim">          
             <h2>SOBRE MIM</h2>
@@ -34,7 +33,9 @@
             <p>Me chamo José Antônio Garcia Lehnemann Filho, tenho 39 anos, e sou um apaixonado por tecnologia. Estou estudando Análise e Desenvolvimento de Sistemas pela UNINTER.</p>
             <p>Gosto muito de aprender novas habilidades, e sou bastante perseverante quando estou aprendendo.</p>
             <p>Atualmente trabalho como bioquímico, e estou em busca de migrar para a área de TI. Desejo me especializar como desenvolvedor de software.</p>
-            <p>Sou um grande apreciador de videogames, música (curto principalmente jazz, rock e eletrônica), filmes, séries e literatura.</p>              
+            <p>Sou um grande apreciador de videogames, música (curto principalmente jazz, rock e eletrônica), filmes, séries e literatura.</p>
+            <p>Convido-lhe a me seguir no <a class="linkexterno" href="https://www.linkedin.com/in/jos%C3%A9-ant%C3%B4nio-garcia-lehnemann-filho-7b30a1232/">LinkedIn</a>!
+            </p>            
         </section>
         
         <br>
@@ -47,11 +48,10 @@
                 <li>2010 - 2012 - Bioquímico - Laboratório Médico Santa Luzia - Florianópolis/SC</li>
             </ul>
             <br>
-            <br>
             <p>Formação:</p>
             <ul>
                 <li>2024 - em andamento - Curso Superior Tecnológico em Análise e Desenvolvimento de Sistemas - UNINTER;</li>
-                <li>2005 - 2010 - Graduação em Farmácia com Habilitação em Análises Clínicas - Universidade Federal de Santa Catarina (UFSC) (Florianópolis/SC);</li>
+                <li>2005 - 2010 - Graduação em Farmácia e Bioquímica - Análises Clínicas - Universidade Federal de Santa Catarina (UFSC) (Florianópolis/SC);</li>
                 <li>1999 - 2001 - Ensino Médio - Colégio Policial Militar Feliciano Nunes Pires (Florianópolis/SC)</li>
                 <li>1998 - Ensino Fundamental (continuação 8° ano) - Colégio Barddal (Florianópolis)</li>
                 <li>1996 - 1998 - Ensino Fundamental (6° ao 8° ano - parcial) - Colégio Catarinense (Florianópolis/SC)</li>
@@ -69,8 +69,8 @@
         <section class="anchor" id="portfolio">
             <h2>PORTFÓLIO</h2>
             <ul>
-                <li><a class="linkportfolio" href="4695081 - Relatório LPA.pdf">Trabalho - Displicina Lógica de Progração e Algoritmos (Python)</a></li>
-                <li><a class="linkportfolio" href="4695081 - Relatorio BD.pdf">Trabalho - Disciplina Banco de Dados Relacional (MySQL)</a></li>
+                <li><a class="linkexterno" href="4695081 - Relatório LPA.pdf">Trabalho - Displicina Lógica de Progração e Algoritmos (Python)</a></li>
+                <li><a class="linkexterno" href="4695081 - Relatorio BD.pdf">Trabalho - Disciplina Banco de Dados Relacional (MySQL)</a></li>
             </ul>
         </section>
     
@@ -78,10 +78,23 @@
         <!--Menu da secção Contato-->
         <section class="anchor" id="contato">
             <h2>CONTATO</h2>
-            <p id="pform">Deixe seu contato, será um prazer lhe atender!</p><br><form action="https://formsubmit.co/98fdb89dfd561b7bbfb742199b8e00ea" method="POST"><label for="nome">Nome</label><br><input type="text" id="nome" name="nome"><br><br><label for="email">E-mail</label><br><input type="text" id="email" name="email"><br><br><label for="mensagem">Mensagem</label><br><textarea id="mensagem" name="mensagem" cols="35" rows = "5"></textarea><br><br><br><input class="link_button" type="submit" value="Enviar"></form>
+            <p id="pform">Deixe seu contato, será um prazer lhe atender!</p><br>
+            <form action="https://formsubmit.co/98fdb89dfd561b7bbfb742199b8e00ea" method="POST">
+                <label for="nome">Nome</label><br><input type="text" id="nome" name="nome"><br><br>
+                <label for="email">E-mail</label><br><input type="text" id="email" name="email"><br><br>
+                <label for="mensagem">Mensagem</label><br><textarea id="mensagem" name="mensagem" cols="35" rows = "5"></textarea><br><br><br>
+                <input class="link_button" type="submit" value="Enviar"></form>
+                <input type="hidden" name="_next" value="https://jlehnemann.github.io/obrigado.html">
         </section>
     </div>
     
-    
+    <!-- Rodapé com copyright e ano -->
+    <div id="footer">
+        <footer>
+            <br>
+            <p>&copy; José Antônio Garcia Lehnemann Filho, 2024</p>
+        </footer>
+    </div>
+
 </body>
 </html>

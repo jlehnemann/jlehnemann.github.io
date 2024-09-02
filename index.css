@@ -1,6 +1,7 @@
+/* acredito que a parte do CSS seja auto-explicativa, em sua maior parte */
+/* buscadas cores que sejam agradáveis e com adequada legibilidade */
 
 body {background-color: rgb(8, 0, 34); font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
-
 
 h1, h2 {color: #0f77ff}
 
@@ -10,22 +11,28 @@ header {display: flex; justify-content: space-around; vertical-align: center;}
 
 .link_button:hover {color: black; background-color: #77C2FF;}
 
-.divheader {height: 65px; width: 100%; position:fixed; z-index:2; background-color: #131031; top: 0; left: 0; padding-top: 30px;}
+/* utilizado position fixed e z-index para que o header seja exibido corretamente */
+.divheader {height: 65px; width: 100%; position:fixed; z-index:2; background-color: #2A2370; top: 0; left: 0; padding-top: 30px;}
 
+/* configurações de margem pensadas para um visual agradável em monitores de médio/grande porte */
 .divconteudo {color: #FFFFFF; position: relative; z-index: 1; margin: 0 13% 0 13%}
 
 #imgperfil {float: right}
 
-.linkportfolio {color: #77C2FF; text-decoration: none;}
-.linkportfolio:visited {color:#77C2FF}
+.linkexterno {color: #77C2FF; text-decoration: none;}
+.linkexterno:visited {color:#77C2FF}
 
 #pform {text-align: center;}
 form {text-align: center;}
 
 #nome, #email, #mensagem {width: 295px; border-radius: 10px}
 
+/* essa class faz com  que exiba corretamente o conteúdo, sem ficar coberto pelo header com os botões */
 .anchor {scroll-margin-top: 100px;}
 
+#footer {color: #FFFFFF; text-align: center} 
+
+/* Responsividade para celular - o desenvolvimento da webpage desde o início foi pensado em ser exibido em celulares e demais telas menores que um monitor */
 @media screen and (max-width:768px) {
     .link_button {width: 65px; font-size: 13px; padding: 7px}
     .divconteudo {margin: 0 0 0 0}
